@@ -7,4 +7,4 @@ WIth the use of Tensorflow and the Functional API, a convolutional neural networ
 * models: Checkpoint folder with the trained model, history folder with the model history.
 * notebooks: Notebooks for exploratory data analysis and to plot model metrics and results. Also contains a python script with plot and metric functions.
 * output: figure and txt with model results and analysis.
-* src: folder with python main script to create, train and save the model and config.yaml with all the script's initial variables.
+* src: folder with python main script to create, train and save the model.

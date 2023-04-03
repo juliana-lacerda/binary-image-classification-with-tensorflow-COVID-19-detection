@@ -1,0 +1,14 @@
+Download the data here https://www.kaggle.com/datasets/anasmohammedtahir/covidqu
+
+Save the downloaded data with this folder structure
+
+data/
+├── Test/ 
+        └── COVID-19/images/
+        └── Not-COVID/images/
+└── Train/
+        └── COVID-19/images/
+        └── Not-COVID/images/
+└── Val/
+        └── COVID-19/images/
+        └── Not-COVID/images/

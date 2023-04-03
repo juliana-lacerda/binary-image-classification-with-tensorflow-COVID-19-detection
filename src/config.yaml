@@ -1,0 +1,21 @@
+model_name: 'model'
+main_path_test: '../data/Test/'
+main_path_train: '../data/Train/'
+main_path_val: '../data/Val/'
+folders: 
+  - 'Not-COVID'
+  - 'COVID-19'
+b_size: 32 
+figs_folder: '../output/figs/'
+checkpoint_path: '../models/checkpoint/'
+path_save_history: '../models/history/'
+path_save_results: '../output/txt/'
+font: 
+  family : 'DejaVu Sans'
+  weight : 'normal'
+  size   : 18
+augmented: True
+epochs: 60
+target_size: 256
+early_stop_patience: 8
+reduce_lr_patience: 4
