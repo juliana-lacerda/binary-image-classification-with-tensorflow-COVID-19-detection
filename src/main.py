@@ -1,12 +1,5 @@
-import sys
-sys.path.append('../')
-from src import *
-
-# Open the YAML configuration file
-SCRIPTDIR = os.path.dirname(__file__)
-YAMLFILE = os.path.join(SCRIPTDIR, 'config.yaml')
-with open(YAMLFILE, 'r') as file:
-    cf = yaml.safe_load(file)
+from config import cf
+from functions import *
 
 # ---------------------------------------------------------------------------- #
 #                        Initial Configuration Variables                       #
@@ -38,6 +31,7 @@ path_save_history = cf["path_save_history"]
 # Train parameters
 early_stop_patience = cf["early_stop_patience"]
 reduce_lr_patience = cf["reduce_lr_patience"]
+
 
 # ---------------------------------------------------------------------------- #
 #                  Create Image Generators and Get Input Shape                 #
