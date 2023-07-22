@@ -8,3 +8,10 @@ WIth the use of Tensorflow and the Functional API, a convolutional neural networ
 * notebooks: Notebooks for exploratory data analysis and to plot model metrics and results. Also contains a python script with plot and metric functions.
 * output: figure and txt with model results and analysis.
 * src: folder with configuration yaml file, python main script to create, train and save the model.
+
+
+## Uso
+Executer o script direto pela linha de comando:
+```
+python src/main.py
+```
