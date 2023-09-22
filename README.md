@@ -10,8 +10,8 @@ WIth the use of Tensorflow and the Functional API, a convolutional neural networ
 * src: folder with configuration yaml file, python main script to create, train and save the model.
 
 
-## Uso
-Executer o script direto pela linha de comando:
+## Usage:
+Execute the script on the command line as follows:
 ```
 python src/main.py
 ```
